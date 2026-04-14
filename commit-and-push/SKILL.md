@@ -6,7 +6,7 @@ user-invocable: true
 argument-hint: "[optional commit scope or message hint]"
 ---
 
-# Ship
+# Commit and Push
 
 Create multiple meaningful commits from the current unstaged/staged changes and push to the remote.
 
