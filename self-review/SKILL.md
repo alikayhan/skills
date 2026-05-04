@@ -99,18 +99,24 @@ One paragraph: what this PR does, whether it's solid, and the overall verdict.
 
 ## Issues
 
-Things that should be fixed before merge. Each one:
-- **File:line** — what's wrong, why it matters, and a concrete suggestion.
+Things that should be fixed before merge. Number each one I1, I2, I3... so they can be referenced:
+- **I1. File:line** — what's wrong, why it matters, and a concrete suggestion.
+- **I2. File:line** — ...
 
 ## Suggestions
 
-Things that would improve the code but aren't blocking. Each one:
-- **File:line** — what could be better and why.
+Things that would improve the code but aren't blocking. Number each one S1, S2, S3...:
+- **S1. File:line** — what could be better and why.
+- **S2. File:line** — ...
 
 ## Notes
 
 Observations, questions, or things to watch for in future phases.
-Non-blocking, informational only.
+Non-blocking, informational only. Number each one N1, N2, N3...:
+- **N1.** ...
+- **N2.** ...
 ```
+
+Numbering is mandatory so the user can refer to specific points (e.g. "address I2 and S1, skip N3"). Restart numbering at 1 within each section. If a section is empty, write "None." rather than omitting it.
 
 If there are no issues, say so clearly. If the code is good, a short review is fine — don't pad it. If there are problems, be specific: file, line, what's wrong, what to do instead.
