@@ -4,12 +4,13 @@ description: Review changed code for reuse, quality, and efficiency, then fix an
 disable-model-invocation: false
 user-invocable: true
 argument-hint: "[optional focus]"
-effort: max
 ---
 
 # Refine Code
 
 Review all changed files for reuse, quality, and efficiency. Fix any issues found.
+
+Use the highest reasoning effort available in this harness.
 
 If `$ARGUMENTS` is provided, treat it as additional focus for the review and cleanup pass.
 
