@@ -13,6 +13,7 @@ Each skill is a single markdown file containing a prompt plus a small bit of YAM
 | [self-review](self-review/SKILL.md) | Senior-engineer self code review of a PR or branch — issues, suggestions, notes. | `npx skills@latest add alikayhan/skills -s self-review` |
 | [refine-code](refine-code/SKILL.md) | Adapted from Claude Code's `simplify` skill: review changed code for reuse, quality, and efficiency, then fix any issues found. | `npx skills@latest add alikayhan/skills -s refine-code` |
 | [deep-talk](deep-talk/SKILL.md) | Relentless interview that walks the full decision tree of a plan or design until shared understanding. | `npx skills@latest add alikayhan/skills -s deep-talk` |
+| [worktree-cleanup](worktree-cleanup/SKILL.md) | Safely audit, remove, and prune Git worktrees while protecting branches and dirty work. | `npx skills@latest add alikayhan/skills -s worktree-cleanup` |
 
 ## Install
 
