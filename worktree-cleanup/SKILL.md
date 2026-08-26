@@ -1,9 +1,13 @@
 ---
 name: worktree-cleanup
+version: 1.0.0
 description: Safely audit, remove, and prune Git worktrees. Use when asked to list worktrees, clean up old worktrees, remove worktree directories, prune stale worktree metadata, or decide whether a worktree or branch is safe to remove after a merge or PR cleanup.
 disable-model-invocation: false
 user-invocable: true
 argument-hint: "[optional repo path or worktree path]"
+tags:
+  - coding
+  - git
 ---
 
 # Worktree Cleanup
