@@ -1,9 +1,13 @@
 ---
 name: commit-and-push
+version: 1.0.0
 description: Stage unstaged changes into meaningful commits and push. Use when asked to commit and push, or land changes.
 disable-model-invocation: false
 user-invocable: true
 argument-hint: "[optional commit scope or message hint]"
+tags:
+  - coding
+  - git
 ---
 
 # Commit and Push

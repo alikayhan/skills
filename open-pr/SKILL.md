@@ -1,9 +1,13 @@
 ---
 name: open-pr
+version: 1.0.0
 description: Create a GitHub pull request for the current branch with a brief, human-readable description that focuses on why. Use when asked to open a PR, create a PR, or make a pull request.
 disable-model-invocation: false
 user-invocable: true
 argument-hint: "[optional base branch]"
+tags:
+  - coding
+  - git
 ---
 
 # Open PR
