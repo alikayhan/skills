@@ -85,6 +85,8 @@ Check that each change is implemented at the right depth, not as a fragile banda
 2. **Call-site workarounds**: compensating at the call site for a problem that lives in the callee — fix the callee instead
 3. **Symptom patches**: normalizing, guarding, or converting data downstream when the upstream producer could emit it correctly in the first place
 
+For each finding, name the concrete change to the underlying mechanism that would address it at the right depth.
+
 ## Phase 3: Fix Issues
 
 Aggregate the findings, dedup any that point at the same line or mechanism, and fix each remaining issue directly. Make focused edits that preserve behavior and improve the changed code.
