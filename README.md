@@ -14,6 +14,7 @@ Each skill is a single markdown file containing a prompt plus a small bit of YAM
 | [refine-code](refine-code/SKILL.md) | Adapted from Claude Code's `simplify` skill: review changed code for reuse, quality, efficiency, and altitude, then fix any issues found. | `npx skills@latest add alikayhan/skills -s refine-code` |
 | [deep-talk](deep-talk/SKILL.md) | Adapted from mattpocock's `grill-me` skill: relentless interview that walks the full decision tree of a plan or design until shared understanding. | `npx skills@latest add alikayhan/skills -s deep-talk` |
 | [worktree-cleanup](worktree-cleanup/SKILL.md) | Safely audit, remove, and prune Git worktrees while protecting branches and dirty work. | `npx skills@latest add alikayhan/skills -s worktree-cleanup` |
+| [private-repo](private-repo/SKILL.md) | Bootstrap a folder as a private GitHub repo with a .gitignore, README, initial commit, push, and squash-only merge settings. | `npx skills@latest add alikayhan/skills -s private-repo` |
 
 ## Install
 
