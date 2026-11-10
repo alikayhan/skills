@@ -1,5 +1,5 @@
 ---
-name: comment-cleanup
+name: nuke-comments
 version: 1.0.0
 description: Remove redundant, stale, and low-value code comments while preserving concise, non-obvious context. Use when asked to audit or clean up comments in a repository, branch, PR, staged or unstaged changes, or specific paths.
 disable-model-invocation: false
@@ -10,7 +10,7 @@ tags:
   - code quality
 ---
 
-# Comment Cleanup
+# Nuke Comments
 
 Minimize the context needed to understand and maintain the code. Prefer self-explanatory code. Keep comments only when they preserve useful information that cannot reasonably be inferred from the code.
 
